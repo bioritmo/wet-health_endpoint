@@ -13,7 +13,7 @@ class Wet::HealthEndpointTest < Minitest::Test
 
     get '/health'
 
-    assert_equal 204, last_response.status
+    assert_equal 200, last_response.status
     assert_equal '',  last_response.body
   end
 

@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ```
 $ curl -I http://example.com/health
-HTTP/1.1 204 No Content
+HTTP/1.1 200 No Content
 Cache-Control: no-cache
 X-Request-Id: 89d3c0c8-0b5c-421b-83a1-757dd04fef30
 X-Runtime: 0.000578
